@@ -1,0 +1,10 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+
+access_contacts,access_contacts,model_contacts,base.group_user,1,0,0,0
+access_contacts_admin,access_contacts_admin,model_contacts,base.group_erp_manager,1,1,1,1
+
+access_opportunities,access_opportunities,model_opportunities,base.group_user,1,0,0,0
+access_opportunities_admin,access_opportunities_admin,model_opportunities,base.group_erp_manager,1,1,1,1
+
+access_salesteams,access_salesteams,model_salesteams,base.group_user,1,0,0,0
+access_salesteams_admin,access_salesteams_admin,model_salesteams,base.group_erp_manager,1,1,1,1
