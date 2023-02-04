@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="main_oppys_menu" name="Opportunity" />
+
+    <menuitem id="contact_menu" name="Contacts" parent="main_oppys_menu" action="show_all_contacts_action"/>
+    <!-- <menuitem id="salesteam_menu" name="Contacts" parent="main_oppys_menu" action="show_all_salesteam_action"/> -->
+
+</odoo>
